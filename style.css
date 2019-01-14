@@ -1,0 +1,213 @@
+/*
+Culture page animation
+*/
+
+/*--- Containers ---*/
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+#CultureAnim{
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	text-align: center;
+	height: 5000px;
+}
+
+/*--- Scene 1 - Mobiles ---*/
+
+._3_mobiles{
+	max-width: 720px;
+	position: relative;
+	max-width: 720px;
+	height: 600px;
+    margin: 0 auto;
+}
+
+._3_mobiles .phone{
+	box-sizing: border-box;
+	width: 240px;
+	height: 480px;
+	margin-top: 250px;
+	background: #000;
+	display: inline-block;
+	position: absolute;
+}
+
+._3_mobiles .phones .phone._1{
+	background: url('./img/scene_1/iphone.png');
+	background-size: cover;
+}
+._3_mobiles .phones .phone._2{
+	background: url('./img/scene_1/iphone.png');
+	background-size: cover;
+}
+._3_mobiles .phones .phone._3{
+	background: url('./img/scene_1/iphone.png');
+	background-size: cover;
+}
+
+
+/*--- Scene 1 - Large Icons ---*/
+
+.icon_set_1{
+    display: inline-block;
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
+ 	top: 0;
+ 	left: 0;   
+	position: absolute;
+}
+
+.icon_set_1 .icon{
+	width: 33%;
+	height: auto;
+    position: relative;
+    display: inline-block;
+    filter: drop-shadow(9px 10px 20px #c9c9c9);
+}
+
+.icon_set_1 .icon img{
+	width: 100%;
+	display: inline-block;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+/*.icon_set_1 .icon ._1{
+	background: url('./img/scene_3/Canon.png');
+	background-size: cover;
+}
+
+.icon_set_1 .icon ._2{
+	background: url('./img/scene_3/Pepsi.png');
+	background-size: cover;
+}
+
+.icon_set_1 .icon ._3{
+	background: url('./img/scene_3/Specsavers.png');
+	background-size: cover;
+}
+*/
+/*--- Second icon set ---*/
+
+.icon_set_2{
+	position: absolute;
+	width: 100%;
+}
+
+.icon_set_2 .icon{
+	width: 33%;
+	height: auto;
+    position: relative;
+    display: inline-block;
+    filter: drop-shadow(9px 10px 20px #c9c9c9);
+}
+
+.icon_set_2 .icon img{
+	width: 100%;
+	display: inline-block;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+/*--- Floating element ---*/
+
+.floatingEl{
+	/*width: 200px;*/
+	display: inline-block;
+	position: absolute;
+}
+
+.floatingEl img{
+	width: 100%;
+	height: auto;
+}
+
+/*--- 2 Col phone - Last scene ---*/
+
+._2_col_phones{
+	width: 600px;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+._2_col_phones img{
+	display: inline-block;
+	position: relative;
+	width: 40%;
+	box-sizing: border-box;
+}
+
+._2_col_phones img:nth-child(2){
+	top: -60px;
+	left: 20px;
+}
+
+/*--- Icons full preview - Last scene ---*/
+
+.icons_full_preview{
+	left: 0;
+	top: 0;
+}
+
+/*--- Laughing cow website - Last scene ---*/
+
+.laughing_cow_website{
+	width: 100%;
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	top: 0;
+}
+
+.laughing_cow_website img{
+	width: 100%;
+	height: auto;
+}
+
+/*--- Laughing cow website - Last scene ---*/
+
+.appleWatch{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.appleWatch img{
+	width: 100%;
+	display: inline-block;
+}
+
+/*--- Helper classes ---*/
+
+.VRGoggles{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 250px;
+}
+
+.VRGoggles img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+/*--- Helper classes ---*/
+
+.reset{
+
+}
+
+/*
+Culture page animation
